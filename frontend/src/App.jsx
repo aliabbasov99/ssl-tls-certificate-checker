@@ -102,7 +102,7 @@ const App = () => {
 </div>
     ) : null)}
          
-        <span className={`loading loading-bars m-auto ${loading ? "" : "hidden"} loading-md`} id="loadingBars" ></span>
+        <span className={`loading mt-4 loading-bars m-auto ${loading ? "" : "hidden"} loading-md`} id="loadingBars" ></span>
 
     <div id="results" className={`mt-8 space-y-3 ${showResults ? "" : "hidden"}`}>
 
